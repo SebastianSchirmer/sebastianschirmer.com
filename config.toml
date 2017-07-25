@@ -1,0 +1,63 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Awesome super site"
+theme = "lio"
+
+[params]
+    author = "Sebastian Schirmer"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "SebastianSchirmer"
+    colorPrimary = "#ff0000"
+    #accent = "#ff0000"
+    #showBorder = true
+    #backgroundColor = "white"
+    font = "Rubik" # should match the name on Google Fonts! # Quicksand
+
+### HIGHLIGHT JS ###
+    highlightEnabled = true
+    highlightStyle = "monokai-sublime"
+    highlightLanguages = ["typescript", "xml", "css", "scss"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/blog/"
+    name = "Blog"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:sebastian.schirmer@quiply.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/SebastianSchirmer/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/LeSchirmeur/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/sebastian-schirmer-257a98b0/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.xing.com/profile/Sebastian_Schirmer/"
+    name = "xing"
+    weight = 5

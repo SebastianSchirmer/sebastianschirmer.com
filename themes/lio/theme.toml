@@ -1,0 +1,22 @@
+name = "Lio"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "Personal blog theme powered by Hugo"
+homepage = "http://example.com/"
+tags = []
+features = ["responsive"]
+min_version = "0.25.1"
+
+[author]
+  name = "Sebastian Schirmer"
+  homepage = "SebastianSchirmer.com"
+
+#[permalinks]
+#	page = "/:title/"
+#	contact = "/:filename/"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
