@@ -1,21 +1,13 @@
 {{ partial "header.html" . }}
+    
+    <article class="post">
+        <h1 class="post__title">{{ .Title }}</h1>
+    
+        <p class="post__meta">
+            Published on <time pubdate datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time><span> | </span>Estimated reading time: </p>
+    
+        {{ .Content }}
 
-<main role="main">
-    <div class="full-width">
-        <div class="container">
-            
-            <article class="post">
-                <h1 class="post__title">{{ .Title }}</h1>
-            
-                <p class="post__meta">
-                    Published on <time pubdate datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time><span> | </span>Estimated reading time: </p>
-            
-                {{ .Content }}
-        
-            </article>
-            
-        </div>
-    </div>
-</main>
+    </article>
 
 {{ partial "footer.html" . }}

@@ -1,4 +1,7 @@
 
+                </div>
+            </div>
+        </main>
 
         <footer>
             <div class="container container--full">
@@ -8,7 +11,22 @@
                     This site is built with <a href="https://gohugo.io">Hugo</a> and hosted on <a href="https://netlify.com">Netlify</a>. The source code is hosted on
                     <a class="" href="https://github.com">Github</a>.
                 </p>
-
+                <p>
+                    <a class="button-square" href="{{ .Site.BaseURL }}index.xml"><i class="fa fa-rss"></i></a>
+                </p>
+                
+                <p>
+                    {{ if .Site.Menus.icon }}
+                    <ul class="">
+                        {{ range sort .Site.Menus.icon }}
+                        <li class="">
+                            <a href="{{ .URL }}"><i class="fa fa-{{ .Name }}"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </p>
+                
             </div>
 
         </footer>

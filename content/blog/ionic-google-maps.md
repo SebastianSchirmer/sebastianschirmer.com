@@ -15,6 +15,11 @@ As Grace Hopper said:
 > I’ve always been more interested
 
 
+Shortcodes:
+
+{{% p class="tip" %}}Hello **World!**{{% /p %}}
+
+
 
 # Heading 1
 

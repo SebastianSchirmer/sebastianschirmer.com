@@ -1,24 +1,16 @@
 {{ partial "header.html" . }}
+    
+    <ul>
+    
+    {{ $paginator := .Paginate (where .Pages "Type" "work") }}
 
-<main>
-    <div class="full-width">
-        <div class="container">
-    
-            <ul>
-            
-            {{ $paginator := .Paginate (where .Pages "Type" "work") }}
-    
-            {{ range $paginator.Pages }}
-                {{ partial "summary.html" . }}
-            {{ end }}
-    
-            {{ partial "pagination.html" . }}
+    {{ range $paginator.Pages }}
+        {{ partial "summary.html" . }}
+    {{ end }}
 
-            </ul>
-            
-        </div>
-    </div>
-</main>
+    {{ partial "pagination.html" . }}
+
+    </ul>
 
 <!--{{ partial "sidebar.html" . }}-->
 

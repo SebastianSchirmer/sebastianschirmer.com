@@ -1,24 +1,16 @@
 {{ partial "header.html" . }}
 
-<main>
-    <div class="full-width">
-        <div class="container">
+    <ul>
     
-            <ul>
-            
-            {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-    
-            {{ range $paginator.Pages }}
-                {{ partial "summary.html" . }}
-            {{ end }}
-    
-            {{ partial "pagination.html" . }}
+    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
 
-            </ul>
-            
-        </div>
-    </div>
-</main>
+    {{ range $paginator.Pages }}
+        {{ partial "summary.html" . }}
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+
+    </ul>
 
 <!--{{ partial "sidebar.html" . }}-->
 
