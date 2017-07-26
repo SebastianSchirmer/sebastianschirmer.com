@@ -6,7 +6,7 @@
     
             <ul>
             
-            {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
+            {{ $paginator := .Paginate (where .Pages "Type" "work") }}
     
             {{ range $paginator.Pages }}
                 {{ partial "summary.html" . }}

@@ -3,33 +3,38 @@
 
 <main>
     
-    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-    
-    {{ range $paginator.Pages }}
-        {{ partial "summary.html" . }}
-    {{ end }}
-    
-    {{ partial "pagination.html" . }}
-    
-    
-    <h1>Blog</h1>
-        <ul>
-        {{ range first 10 .Pages }}
-            {{ if eq .Type "blog" }}
-                <li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>
+    <div class="full-width">
+        <div class="container">
+            
+            {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
+            
+            {{ range $paginator.Pages }}
+                {{ partial "summary.html" . }}
             {{ end }}
-        {{ end }}
-        </ul>
-    
-    <h1>Pages</h1>
-        <ul>
-        {{ range .Pages }}
-            {{ if eq .Type "page" }}
-                <li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        {{ end }}
-        </ul>
+            
+            {{ partial "pagination.html" . }}
+            
+            
+            <h1>Blog</h1>
+                <ul>
+                {{ range first 10 .Pages }}
+                    {{ if eq .Type "blog" }}
+                        <li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            
+            <h1>Pages</h1>
+                <ul>
+                {{ range .Pages }}
+                    {{ if eq .Type "page" }}
+                        <li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
 
+        </div>
+    </div>
 </main>
 
 {{ partial "sidebar.html" . }}

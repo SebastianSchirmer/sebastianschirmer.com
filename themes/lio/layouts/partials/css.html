@@ -14,9 +14,6 @@
 <!-- NORMALIZE.CSS -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
 
-<!-- MAIN STYLES -->
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-
 <!-- ANY ADDTL STYLESHEETS -->
 <!--{{ range .Site.Params.css }}<link rel="stylesheet" href="{{ . }}">{{ end }}-->
 
@@ -28,6 +25,14 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
 
 <!-- HIGHLIGHT.JS -->
+<!--{{ if .Site.Params.highlightEnabled | default false }}-->
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlightStyle | default "default" }}.min.css">-->
+<!--{{ end }}-->
+
+<!-- PRISM.JS -->
 {{ if .Site.Params.highlightEnabled | default false }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlightStyle | default "default" }}.min.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css">
 {{ end }}
+
+<!-- MAIN STYLES -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">

@@ -1,10 +1,13 @@
 <!-- HIGHLIGHT.JS -->
-{{ if .Site.Params.highlightEnabled | default false }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<!--{{ if .Site.Params.highlightEnabled | default false }}-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>-->
 
-{{ range .Site.Params.highlightLanguages }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>
-{{ end }}
+<!--{{ range .Site.Params.highlightLanguages }}-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>-->
+<!--{{ end }}-->
 
-<script>hljs.initHighlightingOnLoad();</script>
-{{ end }}
+<!--<script>hljs.initHighlightingOnLoad();</script>-->
+<!--{{ end }}-->
+
+<!-- PRISM.JS -->
+<script src="{{ .Site.BaseURL }}js/prism.js"></script>
