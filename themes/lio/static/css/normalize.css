@@ -13,6 +13,9 @@ html {
     /*line-height: 1.15; !* 1 *!*/
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+
+    -ms-overflow-style: scrollbar; /* bs reboot */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* bs reboot */
 }
 
 /* Sections
@@ -219,6 +222,7 @@ audio:not([controls]) {
 
 img {
     border-style: none;
+    vertical-align: middle;
 }
 
 /**
