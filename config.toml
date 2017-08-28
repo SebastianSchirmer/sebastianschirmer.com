@@ -7,10 +7,6 @@ theme = "lio"
     author = "Sebastian Schirmer"
     description = "Personal blog theme powered by Hugo"
     githubUsername = "SebastianSchirmer"
-    colorPrimary = "#ff0000"
-    #accent = "#ff0000"
-    #showBorder = true
-    #backgroundColor = "white"
     font = "Rubik" # should match the name on Google Fonts! # Quicksand Rubik
     siteSubtitle = "UX Engineer / Frontend Developer"
 
