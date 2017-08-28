@@ -3,12 +3,8 @@
     :root {
         --color-primary: {{ .Site.Params.colorPrimary | default "#2196F3" }};
         --accent: {{ .Site.Params.colorPrimary | default "#2196F3" }};
-        --border-width: 5px;
     }
     
-    html {
-        /*font-family: {{ .Site.Params.font }}, sans-serif;*/
-    }
 </style>
 
 <!-- NORMALIZE.CSS -->
@@ -18,8 +14,7 @@
 <!--{{ range .Site.Params.css }}<link rel="stylesheet" href="{{ . }}">{{ end }}-->
 
 <!-- GOOGLE FONTS -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:600">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}:300,400,500,700">
 
 <!-- FONT AWESOME -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
@@ -36,3 +31,4 @@
 
 <!-- MAIN STYLES -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/utilities.css">

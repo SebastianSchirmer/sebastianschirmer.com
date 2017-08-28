@@ -1,8 +1,18 @@
 {{ partial "header.html" . }}
-    
-    <h1>{{ .Title }}</h1>
 
+
+
+
+<div class="row">
+    <div class="col-4">
+        <h2 class="mar-t">{{ .Title }}</h2>
+    </div>
+    <div class="col-8">
     {{ .Content }}
+    </div>
+</div>
+
+
 
 <!--{{ partial "sidebar.html" . }}-->
 

@@ -1,6 +1,6 @@
 baseURL = "http://example.com/"
 languageCode = "en-us"
-title = "Awesome super site"
+title = "Sebastian Schirmer"
 theme = "lio"
 
 [params]
@@ -11,7 +11,8 @@ theme = "lio"
     #accent = "#ff0000"
     #showBorder = true
     #backgroundColor = "white"
-    font = "Rubik" # should match the name on Google Fonts! # Quicksand
+    font = "Rubik" # should match the name on Google Fonts! # Quicksand Rubik
+    siteSubtitle = "UX Engineer / Frontend Developer"
 
 ### HIGHLIGHT JS ###
     highlightEnabled = true
@@ -52,10 +53,10 @@ theme = "lio"
     name = "envelope-o"
     weight = 1
 
-[[menu.icon]]
-    url = "https://github.com/SebastianSchirmer/"
-    name = "github"
-    weight = 2
+#[[menu.icon]]
+#    url = "https://github.com/SebastianSchirmer/"
+#    name = "github"
+#    weight = 2
 
 [[menu.icon]]
     url = "https://twitter.com/LeSchirmeur/"

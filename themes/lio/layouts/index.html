@@ -1,33 +1,35 @@
 {{ partial "header.html" . }}
 
-    <ul>
-    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-    
-    {{ range $paginator.Pages }}
-        {{ partial "summary.html" . }}
-    {{ end }}
-    
-    {{ partial "pagination.html" . }}
-    </ul>
-    
-    
-    <h1>Blog</h1>
-        <ul>
-        {{ range first 10 .Pages }}
-            {{ if eq .Type "blog" }}
-                <li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        {{ end }}
-        </ul>
-    
-    <h1>Pages</h1>
-        <ul>
-        {{ range .Pages }}
-            {{ if eq .Type "page" }}
-                <li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        {{ end }}
-        </ul>
+{{ .Content }}
+
+    <!--<ul>-->
+    <!--{{ $paginator := .Paginate (where .Pages "Type" "blog") }}-->
+    <!---->
+    <!--{{ range $paginator.Pages }}-->
+        <!--{{ partial "summary.html" . }}-->
+    <!--{{ end }}-->
+    <!---->
+    <!--{{ partial "pagination.html" . }}-->
+    <!--</ul>-->
+    <!---->
+    <!---->
+    <!--<h1>Blog</h1>-->
+        <!--<ul>-->
+        <!--{{ range first 10 .Pages }}-->
+            <!--{{ if eq .Type "blog" }}-->
+                <!--<li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>-->
+            <!--{{ end }}-->
+        <!--{{ end }}-->
+        <!--</ul>-->
+    <!---->
+    <!--<h1>Pages</h1>-->
+        <!--<ul>-->
+        <!--{{ range .Pages }}-->
+            <!--{{ if eq .Type "page" }}-->
+                <!--<li><a class="" href="{{ .Permalink }}">{{ .Title }}</a></li>-->
+            <!--{{ end }}-->
+        <!--{{ end }}-->
+        <!--</ul>-->
 
 <!--{{ partial "sidebar.html" . }}-->
 

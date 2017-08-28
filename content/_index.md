@@ -9,19 +9,21 @@ slug = "about"
 <!-- ![Sebastian Schirmer](/img/sebastian_schirmer.jpg) -->
 
 
-{{< figure src="/img/sebastian_schirmer-wide.jpg" class="image--portrait" >}}
+<!-- {{< figure src="/img/sebastian_schirmer-wide.jpg" class="image--portrait" >}} -->
 
-## A little bit about me
+{{< h2 class="h0" >}}
+    Hi, I'm Sebastian!
+{{< /h2 >}}
 
-Hi, I'm Sebastian&hairsp;&mdash;&hairsp;a UX engineer and frontend developer from Zurich, Switzerland. Born and raised in Germany however, living in Zurich since 2005.
+I'm a UX engineer and frontend developer from Zurich, Switzerland. Born and raised in Germany however, living in Zurich since 2005.
 
 Besides being a UX engineer and frontend developer, I am also a founder and entrepreneur, a project and team manager, having a track record working as freelancer, as corporate employee and startup CEO.
 
-### Founding a company
+### Founding a company&hairsp;&mdash;&hairsp;Quiply
 
 My most recent project was to grow a startup company developing a white-label mobile app platform called [**Quiply**](https://www.quiply.com) enabling large organizations to communicate and coordinate themselves better. We chose a hybrid app approach for the mobile app which we could leverage for building an accompanying web app. 
 
-The above mentioned startup company did also deliver some custom projects to various clients, such as a mobile app for bicycle manufactures and buyers of their products&hairsp;&mdash;&hairsp;the [**CyBike app**](https://www.cybike.de/).
+<!-- The above mentioned startup company did also deliver some custom projects to various clients, such as a mobile app for bicycle manufactures and buyers of their products&hairsp;&mdash;&hairsp;the [**CyBike app**](https://www.cybike.de/). -->
 
 ### Before that
 A few years ago, I was looking for language exchange partners to improve my French and Spanish but couldn’t find a good website where language learners could find peers to meet in person. So, I developed the [Languagefriends](http://www.languagefriends.net/en/) web site in my leisure time. At that time I was working as a project manager for a large insurance corporation and hadn’t done any development work for more than 10 years. So, got back into development then. 
@@ -36,4 +38,12 @@ Oh, yes, some time ago I studied Business Engineering&hairsp;&mdash;&hairsp;in G
 
 And for those who are keen to know, I also used to work as a Snowboarding instructor about 20 years ago for some time.
 
+{{< h2 class="h0" >}}
+    Contact
+{{< /h2 >}}
 
+If you are a potential client and want to inquire about frontend development work,
+please [**send me an email**](mailto:sebastian.schirmer@gmx.de). You’ll normally hear back from me within a couple of days.
+
+In case you would just like to say hi or would like to contact me regarding
+anything else, you might also [tweet me](https://twitter.com/LeSchirmeur).
