@@ -266,7 +266,7 @@ article .post__content {
 
 @media (min-width: 640px) {
   .image-portrait-wrapper {
-    max-width: 40%; }
+    max-width: 35%; }
 
   .image-portrait {
     width: 100%; } }
