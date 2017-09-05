@@ -755,10 +755,10 @@ footer p {
 footer:before {
   content: '';
   background-color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(51%, #f8f8f8));
-  background-image: -webkit-linear-gradient(top left, transparent 50%, #f8f8f8 51%);
-  background-image: -o-linear-gradient(top left, transparent 50%, #f8f8f8 51%);
-  background-image: linear-gradient(to bottom right, transparent 50%, #f8f8f8 51%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, #f8f8f8));
+  background-image: -webkit-linear-gradient(top left, transparent 50%, #f8f8f8 50%);
+  background-image: -o-linear-gradient(top left, transparent 50%, #f8f8f8 50%);
+  background-image: linear-gradient(to bottom right, transparent 50%, #f8f8f8 50%);
   height: 1.5rem;
   display: block; }
 

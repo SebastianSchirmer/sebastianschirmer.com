@@ -1,5 +1,11 @@
 {{ partial "header.html" . }}
 
+<style>
+    .image-portrait {
+        width: 20%;
+    }
+</style>
+
     <ul>
     
     {{ $paginator := .Paginate (where .Pages "Type" "blog") }}

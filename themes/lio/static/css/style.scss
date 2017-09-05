@@ -319,7 +319,7 @@ footer p {
 footer:before {
     content: '';
     background-color: $color-white;
-    background-image: linear-gradient(to bottom right, transparent 50%, $color-grey-light 51%);
+    background-image: linear-gradient(to bottom right, transparent 50%, $color-grey-light 50%);
     height: 1.5rem;
     display: block;
 }
