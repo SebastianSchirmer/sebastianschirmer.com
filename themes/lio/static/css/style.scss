@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+// -------------------------
+// VARIABLES
+// -------------------------
 $color-grey-dark: #111112;
 $color-grey-medium: #555556;
 $color-grey-light: #f8f8f8;
@@ -8,8 +13,15 @@ $color-link-hover: rgba(0, 209, 178, .3);
 $color-accent: #f06d06;
 $color-selection: yellow;
 
+// -------------------------
+// IMPORTS
+// -------------------------
+@import "normalize";
+@import "utilities";
 
-
+// -------------------------
+// STYLES
+// -------------------------
 *, *:before, *:after {
     box-sizing: border-box;
 }
