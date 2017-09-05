@@ -14,12 +14,12 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@LeSchirmeur">
     <meta property="og:type" content="website">
-    <meta content="https://www.sebastianschirmer.com" property="og:url">
-    <meta content="https://www.sebastianschirmer.com" property="twitter:url">
+    <meta content="{{ .Site.BaseURL }}" property="og:url">
+    <meta content="{{ .Site.BaseURL }}" property="twitter:url">
     
     <meta name="twitter:title" property="og:title" content="Sebastian Schirmer – Freelance frontend web developer &amp; UX engineer">
-    <meta property="og:image" content="https://www.sebastianschirmer.com/img/sebastian_schirmer-wide-cropped-min.jpg">
-    <meta name="twitter:image" content="https://www.sebastianschirmer.com/img/sebastian_schirmer-wide-cropped-min.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL }}img/sebastian_schirmer-wide-cropped-min.jpg">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}img/sebastian_schirmer-wide-cropped-min.jpg">
     
     <meta content="Welcome to Sebastian Schirmer’s web site." name="description">
     <meta content="Welcome to Sebastian Schirmer’s web site." name="twitter:description" property="og:description">
@@ -30,16 +30,16 @@
     {{ end }}
     
     <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="favicon/manifest.json">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{ .Site.BaseURL }}favicon/manifest.json">
+    <link rel="mask-icon" href="{{ .Site.BaseURL }}favicon/safari-pinned-tab.svg" color="#ffffff">
     <meta name="apple-mobile-web-app-title" content="Sebastian Schirmer">
     <meta name="application-name" content="Sebastian Schirmer">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}favicon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
     
     <!-- preconnect gaug.es tracker -->
