@@ -216,7 +216,7 @@ header h1 a:hover {
 footer {
     padding: 0 0 2rem;
     margin-top: 3rem;
-    border-top: 1px solid #eeeeee;
+    //border-top: 1px solid #eeeeee;
 }
 
 footer, footer p, footer ul, footer li {
@@ -277,6 +277,14 @@ footer > .container {
 
 footer p {
     font-weight: 300;
+}
+
+footer:before {
+    content: '';
+    background-color: white;
+    background-image: linear-gradient(to bottom right, transparent 50%, #f8f8f8 51%);
+    height: 1.5rem;
+    display: block;
 }
 
 .full-width {
