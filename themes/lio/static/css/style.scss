@@ -305,6 +305,12 @@ footer > .container {
     padding-top: 3rem;
 }
 
+@media (min-width: 1024px) {
+    footer > .container {
+        margin-right: 3rem; // move it to the right
+    }
+}
+
 footer p {
     font-weight: 300;
 }
@@ -315,6 +321,17 @@ footer:before {
     background-image: linear-gradient(to bottom right, transparent 50%, $color-grey-light 51%);
     height: 1.5rem;
     display: block;
+}
+
+@media (min-width: 1024px) {
+    footer:before {
+        height: 3rem;
+    }
+
+    footer > .container {
+        text-align: right;
+        padding-top: 1.5rem;
+    }
 }
 
 .full-width {

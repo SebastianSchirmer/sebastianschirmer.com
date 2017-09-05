@@ -51,7 +51,8 @@ theme = "lio"
 
 [[menu.icon]]
     url = "mailto:sebastian.schirmer@quiply.com"
-    name = "envelope-o"
+    name = "Email"
+    pre = "envelope-o"
     weight = 1
 
 #[[menu.icon]]
@@ -61,15 +62,18 @@ theme = "lio"
 
 [[menu.icon]]
     url = "https://twitter.com/LeSchirmeur/"
-    name = "twitter"
+    name = "Twitter"
+    pre = "twitter"
     weight = 3
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/sebastian-schirmer-257a98b0/"
-    name = "linkedin"
+    name = "Linkedin"
+    pre = "linkedin"
     weight = 4
 
 [[menu.icon]]
     url = "https://www.xing.com/profile/Sebastian_Schirmer/"
-    name = "xing"
+    name = "Xing"
+    pre = "xing"
     weight = 5
