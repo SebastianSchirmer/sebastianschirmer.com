@@ -281,8 +281,8 @@ footer p {
 
 footer:before {
     content: '';
-    background-color: white;
-    background-image: linear-gradient(to bottom right, transparent 50%, #f8f8f8 51%);
+    background-color: $color-white;
+    background-image: linear-gradient(to bottom right, transparent 50%, $color-grey-light 51%);
     height: 1.5rem;
     display: block;
 }

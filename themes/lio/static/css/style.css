@@ -195,7 +195,7 @@ footer p {
 
 footer:before {
   content: '';
-  background-color: white;
+  background-color: #ffffff;
   background-image: linear-gradient(to bottom right, transparent 50%, #f8f8f8 51%);
   height: 1.5rem;
   display: block; }
