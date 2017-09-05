@@ -694,6 +694,7 @@ aside {
 
 nav {
   position: absolute;
+  left: 0;
   bottom: 1.5rem;
   color: #cccccc;
   font-weight: 300; }
