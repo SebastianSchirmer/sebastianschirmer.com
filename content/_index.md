@@ -1,5 +1,5 @@
 +++
-title = "A little bit about me"
+title = "Sebastian Schirmer - UX engineer and frontend developer"
 description = "About me"
 date = "2017-07-25"
 slug = "about"

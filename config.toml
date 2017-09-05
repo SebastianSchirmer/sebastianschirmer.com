@@ -5,7 +5,7 @@ theme = "lio"
 
 [params]
     author = "Sebastian Schirmer"
-    description = "Personal blog theme powered by Hugo"
+    description = "Sebastian Schirmer - UX Engineer / Frontend Developer"
     githubUsername = "SebastianSchirmer"
     font = "Rubik" # should match the name on Google Fonts! # Quicksand Rubik
     siteSubtitle = "UX Engineer / Frontend Developer"
