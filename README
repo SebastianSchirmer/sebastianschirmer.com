@@ -1,1 +1,8 @@
-Sebastian Schirmer's site
+Sebastian Schirmer's personal website
+
+# Running local server
+
+When developing, run "hugo server --verbose -D".
+
+In order to also compile scss files to css files, run "gulp watch" in another terminal window.
+
