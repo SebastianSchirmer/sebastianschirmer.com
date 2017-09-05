@@ -41,7 +41,9 @@
 <!--{{ end }}-->
 
 <!-- PRISM.JS -->
+{{ if eq .Page.Section "blog" }}
 <script defer src="{{ .Site.BaseURL }}js/prism.js"></script>
+{{ end }}
 
 <script>
     var _gauges = _gauges || [];

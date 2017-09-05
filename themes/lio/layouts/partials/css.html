@@ -17,7 +17,7 @@
 <!--{{ end }}-->
 
 <!-- PRISM.JS -->
-{{ if .Site.Params.highlightEnabled | default false }}
+{{ if eq .Page.Section "blog" }}
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css">
 {{ end }}
 
