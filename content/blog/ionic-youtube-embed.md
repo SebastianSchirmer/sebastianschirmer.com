@@ -1,6 +1,6 @@
 ---
 title: Embed YouTube videos in an Ionic 2 application
-date: 2017-08-05T20:36:46+02:00
+date: 2017-09-05T17:02:46+02:00
 draft: false
 ---
 

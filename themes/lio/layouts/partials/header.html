@@ -33,13 +33,13 @@
                 <img class="image-portrait" src="/img/sebastian_schirmer-wide-cropped-min.jpg" alt="Sebastian Schirmer">
             </div>
             
-            <!--<nav class="text-right">-->
-                <!--<ul>-->
-                    <!--{{ range .Site.Menus.main }}-->
-                    <!--<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>-->
-                    <!--{{ end }}-->
-                <!--</ul>-->
-            <!--</nav>-->
+            <nav class="text-right">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </nav>
             
         
         
