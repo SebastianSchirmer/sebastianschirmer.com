@@ -16,7 +16,7 @@
                 <ul>
                     {{ range sort .Site.Menus.icon }}
                     <li>
-                        <a href="{{ .URL }}"><i class="fa fa-{{ .Pre }}"></i><span class="visuallyhidden">{{ .Name }}</span></a>
+                        <a href="{{ .URL }}" title="{{ .Name }}"><i class="fa fa-{{ .Pre }}"></i><span class="visuallyhidden">{{ .Name }}</span></a>
                     </li>
                     {{ end }}
                 </ul>
