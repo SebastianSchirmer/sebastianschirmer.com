@@ -267,7 +267,7 @@ nav ul li {
 
 footer ul li {
     display: inline-block;
-    padding: 0 1em;
+    padding: 0 .5rem;
     margin-top: 0;
 }
 
@@ -277,11 +277,21 @@ footer ul li:first-of-type {
 
 footer ul li a {
     box-shadow: none;
-    display: inline-block;
+    //display: inline-block;
+
+    // round circles
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer ul li a:hover {
     transform: scale(1.5);
+    background-color: rgba(0, 0, 0, .05);
 }
 
 nav ul li a {

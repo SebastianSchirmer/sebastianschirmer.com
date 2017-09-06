@@ -709,7 +709,7 @@ nav ul li {
 
 footer ul li {
   display: inline-block;
-  padding: 0 1em;
+  padding: 0 .5rem;
   margin-top: 0; }
 
 footer ul li:first-of-type {
@@ -718,12 +718,28 @@ footer ul li:first-of-type {
 footer ul li a {
   -webkit-box-shadow: none;
           box-shadow: none;
-  display: inline-block; }
+  border-radius: 50%;
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 footer ul li a:hover {
   -webkit-transform: scale(1.5);
       -ms-transform: scale(1.5);
-          transform: scale(1.5); }
+          transform: scale(1.5);
+  background-color: rgba(0, 0, 0, 0.05); }
 
 nav ul li a {
   text-transform: uppercase;
