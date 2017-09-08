@@ -52,7 +52,7 @@ theme = "lio"
 [[menu.icon]]
     url = "mailto:sebastian.schirmer@quiply.com"
     name = "Email"
-    pre = "envelope-o"
+    pre = "mail"
     weight = 1
 
 #[[menu.icon]]
