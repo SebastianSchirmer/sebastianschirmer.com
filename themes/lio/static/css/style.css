@@ -742,7 +742,9 @@ header {
           flex-wrap: wrap;
   background-color: black;
   padding-bottom: 0;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  padding-left: constant(safe-area-inset-left);
+  padding-right: constant(safe-area-inset-right); }
 
 @media (min-width: 640px) {
   header {
@@ -770,7 +772,7 @@ aside {
 
 nav {
   position: absolute;
-  left: 0;
+  left: constant(safe-area-inset-left);
   bottom: 1.5rem;
   color: #cccccc;
   font-weight: 300; }
@@ -913,7 +915,7 @@ article .post__content {
   content: '·'; }
 
 /* HEADER */
-.site-title__title {
+a.site-title__title {
   font-size: calc(.9rem + 3vw);
   color: #f06d06;
   background-color: #ffffff;
