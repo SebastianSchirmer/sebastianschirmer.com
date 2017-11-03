@@ -219,6 +219,9 @@ header {
     padding-bottom: 0;
 
     margin-bottom: 1.5rem;
+
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
 }
 
 @media (min-width: 640px) {
@@ -255,7 +258,7 @@ main {
 
 nav {
     position: absolute;
-    left: 0;
+    left: constant(safe-area-inset-left);
     bottom: 1.5rem;
     color: $color-grey-medium-light;
     font-weight: 300;
@@ -421,7 +424,7 @@ article .post__content {
 }
 
 /* HEADER */
-.site-title__title {
+a.site-title__title { // add a element to increase specificity to override color: inherit from a:link declaration
     font-size: calc(.9rem + 3vw);
     color: $color-accent;
     background-color: $color-white;
