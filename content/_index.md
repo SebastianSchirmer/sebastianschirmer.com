@@ -46,7 +46,7 @@ And for those who are keen to know, about 20 years ago, I also used to work as a
 {{< /h2 >}}
 
 If you are a potential client and want to inquire about frontend development work,
-please [**send me an email**](mailto:sebastian.schirmer@gmx.de). You’ll normally hear back from me within a couple of days.
+please [**send me an email**](mailto:sebastian.schirmer@quiply.com). You’ll normally hear back from me within a couple of days.
 
 In case you would just like to say hi or would like to contact me regarding
 anything else, you might also [tweet me](https://twitter.com/LeSchirmeur).
