@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     <meta name="keywords" content="freelancer, frontend web developer, HTML5, CSS3, Zurich, frontend engineer">
@@ -30,7 +30,7 @@
     {{ end }}
     
     <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/favicon-16x16.png" sizes="16x16">
